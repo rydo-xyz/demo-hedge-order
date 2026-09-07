@@ -3,270 +3,161 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="DEMO — fictional Hedge & Order garden maintenance site for Kerbstone Studio portfolio. Not a real business." />
+  <meta name="description" content="DEMO — fictional Hedge & Order garden care site for Kerbstone Studio portfolio. Not a real business." />
   <meta name="robots" content="noindex, nofollow" />
+  <meta name="theme-color" content="#0a1610" />
   <title>Hedge &amp; Order — DEMO | Kerbstone Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-
-  <div class="demo-banner" role="status">
-    <strong>DEMO</strong> — Fictional brand for <em>Kerbstone Studio</em> portfolio. Not a real business. Do not book.
-  </div>
-
+  <div class="demo-banner" role="status"><strong>DEMO</strong> — Fictional brand for <em>Kerbstone Studio</em> portfolio. Not a real business. Do not call or book.</div>
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="logo" href="#top" aria-label="Hedge and Order home">
-        <svg class="logo-mark" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true">
-          <rect width="40" height="40" rx="10" fill="#1b4332"/>
-          <path d="M10 28c3-8 6-12 10-12s7 4 10 12" stroke="#95d5b2" stroke-width="3" fill="none" stroke-linecap="round"/>
-          <path d="M14 22c2-3 4-4 6-4s4 1 6 4" stroke="#52b788" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-        </svg>
-        <span>
-          <span class="logo-name">Hedge &amp; Order</span>
-          <span class="logo-tag">DEMO · Surrey gardens</span>
-        </span>
+        <svg class="logo-mark" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true"><rect width="40" height="40" rx="10" fill="#0f2418"/><path d="M20 30V14M14 22c4-8 6-10 6-10s2 2 6 10" stroke="#6fbf73" stroke-width="2.5" fill="none" stroke-linecap="round"/><circle cx="20" cy="12" r="3" fill="#a8e063"/></svg>
+        <span><span class="logo-name">Hedge &amp; Order</span><span class="logo-tag">DEMO · garden</span></span>
       </a>
-      <nav class="nav" aria-label="Primary">
-        <a href="#packages">Packages</a>
-        <a href="#before-after">Before / After</a>
-        <a href="#areas">Areas</a>
-        <a href="#faq">FAQ</a>
-        <a href="#quote">Quote</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Menu"><span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span></button>
+      <nav class="nav" id="primary-nav" aria-label="Primary">
+        <a href="#services">Services</a><a href="#process">Process</a><a href="#areas">Areas</a><a href="#reviews">Reviews</a><a href="#faq">FAQ</a><a href="#quote">Quote</a>
       </nav>
-      <a class="btn btn-leaf header-cta" href="#quote">Get a quote</a>
+      <a class="btn btn-accent header-cta" href="tel:01234567891">Book a visit · 01234 567891</a>
     </div>
   </header>
-
   <main id="main">
     <section class="hero" id="top">
       <div class="wrap hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">DEMO · Garden maintenance · Surrey</p>
-          <h1>Neat hedges. Tidy lawns. Zero fuss.</h1>
-          <p class="lede">
-            Fictional seasonal garden care for this Kerbstone Studio Spark demo —
-            hedge cutting, lawn packages, and one-off tidy-ups with a calm Surrey aesthetic.
-          </p>
+        <div class="hero-copy reveal">
+          <p class="eyebrow">DEMO · Garden care · fictional Surrey</p>
+          <h1>Lawns sharp. Hedges honest. Gardens calm.</h1>
+          <p class="lede">Fictional Surrey garden maintenance for this Kerbstone Studio Spark demo — seasonal packages, clear quotes, and a calm green shopfront that makes the phone feel easy.</p>
           <div class="hero-actions">
-            <a class="btn btn-leaf btn-lg" href="#quote">Request a free quote</a>
-            <a class="btn btn-ghost btn-lg" href="#packages">View packages</a>
+            <a class="btn btn-accent btn-lg" href="tel:01234567891">Book a visit · 01234 567891</a>
+            <a class="btn btn-ghost btn-lg" href="#quote">Send a message</a>
           </div>
-          <ul class="hero-points">
-            <li>Fully insured (demo claim)</li>
-            <li>Recurring or one-off visits</li>
-            <li>Green waste taken away</li>
-          </ul>
+          <ul class="hero-points"><li>Seasonal packages (demo)</li><li>Green waste removed</li><li>No lock-in contracts</li></ul>
         </div>
-        <aside class="hero-card" aria-label="Season highlight">
-          <p class="card-label">DEMO season highlight</p>
-          <h2>Autumn tidy package</h2>
-          <p>Leaf clearance, hedge shape, and lawn edge — fictional from £120 per visit.</p>
-          <a class="btn btn-forest btn-block" href="#quote">Book a quote</a>
-          <p class="card-note">Surrey fictional towns · DEMO ONLY</p>
-        </aside>
+        <div class="hero-visual reveal">
+          <svg class="hero-scene" viewBox="0 0 560 420" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="hg" x1="0" y1="1" x2="0" y2="0"><stop stop-color="#6fbf73"/><stop offset="1" stop-color="#a8e063"/></linearGradient>
+              <radialGradient id="glow" cx="70%" cy="30%" r="50%"><stop stop-color="#a8e063" stop-opacity=".3"/><stop offset="1" stop-color="transparent"/></radialGradient>
+            </defs>
+            <rect width="560" height="420" fill="url(#glow)"/>
+            <path d="M0 340c80-40 140-20 200-40s120-60 200-50 120 30 160 20v150H0z" fill="#14301f" opacity=".8"/>
+            <path d="M60 340c20-80 40-120 70-120s50 40 70 120" fill="url(#hg)" opacity=".85"/>
+            <path d="M200 340c25-100 50-150 90-150s65 50 90 150" fill="#6fbf73" opacity=".55"/>
+            <path d="M380 340c15-70 35-100 55-100s40 30 55 100" fill="#a8e063" opacity=".7"/>
+            <circle cx="420" cy="90" r="36" fill="#a8e063" opacity=".5"/>
+          </svg>
+          <aside class="hero-card" aria-label="Quick contact card">
+            <p class="card-label">DEMO contact card</p>
+            <h2>Free garden quote</h2>
+            <p>Fictional number for demo tel: behaviour. Prefer the form for a callback.</p>
+            <a class="btn btn-accent btn-block" href="tel:01234567891">01234 567891</a>
+            <p class="card-note">Surrey · DEMO ONLY</p>
+          </aside>
+        </div>
       </div>
     </section>
-
-    <section class="packages" id="packages">
+    <section class="metrics" aria-label="Trust metrics">
+      <div class="wrap metrics-grid">
+        <div class="metric reveal"><strong>48 hr</strong><span>quote turnaround</span></div>
+        <div class="metric reveal"><strong>320+</strong><span>gardens (demo)</span></div>
+        <div class="metric reveal"><strong>Zero</strong><span>lock-in contracts</span></div>
+        <div class="metric reveal"><strong>Green</strong><span>waste removed</span></div>
+      </div>
+    </section>
+    <section class="section" id="services">
       <div class="wrap">
-        <header class="section-head">
-          <p class="eyebrow">Seasonal packages</p>
-          <h2>Pick a rhythm that fits your garden</h2>
-          <p>All packages and prices below are fictional demo copy.</p>
-        </header>
+        <header class="section-head reveal"><p class="eyebrow">Services</p><h2>What this Spark skin sells</h2><p>Core offers for a typical UK garden trade page — all fictional copy for portfolio layout.</p></header>
         <div class="card-grid">
-          <article class="pkg-card">
-            <p class="pkg-season">Spring</p>
-            <h3>Wake-up cut</h3>
-            <p class="price">from £95</p>
-            <ul>
-              <li>First hedge shape of the year</li>
-              <li>Lawn first cut &amp; edge</li>
-              <li>Beds weeded (front only)</li>
-            </ul>
-          </article>
-          <article class="pkg-card featured">
-            <p class="pkg-season">Summer</p>
-            <h3>Keep it sharp</h3>
-            <p class="price">from £75 / visit</p>
-            <ul>
-              <li>Fortnightly lawn care</li>
-              <li>Hedge tops &amp; sides</li>
-              <li>Green waste removed</li>
-            </ul>
-          </article>
-          <article class="pkg-card">
-            <p class="pkg-season">Autumn / Winter</p>
-            <h3>Settle &amp; clear</h3>
-            <p class="price">from £120</p>
-            <ul>
-              <li>Leaf &amp; debris clearance</li>
-              <li>Final hedge tidy</li>
-              <li>Path moss treatment (demo)</li>
-            </ul>
-          </article>
+          <article class="service-card reveal"><div class="icon" aria-hidden="true"><svg viewBox="0 0 48 48" width="48" height="48"><path d="M8 32c4-10 8-14 16-14s12 4 16 14" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M24 10v8" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round"/></svg></div><h3>Lawn care</h3><p>Cut, edge, and feed on a rhythm that suits your grass — not a one-size calendar.</p></article>
+          <article class="service-card reveal"><div class="icon" aria-hidden="true"><svg viewBox="0 0 48 48" width="48" height="48"><rect x="10" y="18" width="8" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><rect x="20" y="12" width="8" height="22" rx="2" fill="var(--accent)" opacity=".85"/><rect x="30" y="16" width="8" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/></svg></div><h3>Hedge trimming</h3><p>Formal lines or soft shapes. We bag cuttings unless you compost on site.</p></article>
+          <article class="service-card reveal"><div class="icon" aria-hidden="true"><svg viewBox="0 0 48 48" width="48" height="48"><path d="M14 34V20l10-8 10 8v14" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M20 34v-8h8v8" stroke="var(--accent)" stroke-width="2.5"/></svg></div><h3>Seasonal tidy</h3><p>Beds weeded, borders mulched, paths blown — spring wake-up or autumn settle.</p></article>
+          <article class="service-card reveal"><div class="icon" aria-hidden="true"><svg viewBox="0 0 48 48" width="48" height="48"><circle cx="24" cy="24" r="12" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M24 16v10l6 4" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round"/></svg></div><h3>One-off rescue</h3><p>Overgrown plots brought back under control before a sale or party.</p></article>
         </div>
       </div>
     </section>
-
-    <section class="before-after" id="before-after">
+    <section class="section section-alt" id="process">
       <div class="wrap">
-        <header class="section-head">
-          <p class="eyebrow">Results</p>
-          <h2>Before &amp; after</h2>
-          <p class="demo-note"><strong>DEMO / CSS mock</strong> — no real client photos. Illustrative strip only.</p>
-        </header>
-        <div class="ba-strip" aria-label="Fictional before and after comparison">
-          <figure class="ba-panel before">
-            <div class="ba-art" aria-hidden="true">
-              <svg viewBox="0 0 320 180" width="100%" height="180" role="img">
-                <rect width="320" height="180" fill="#d8e2d4"/>
-                <path d="M0 130 Q40 100 80 125 T160 120 T240 135 T320 115 V180 H0Z" fill="#8fa88a"/>
-                <path d="M40 130 L55 60 L70 130" fill="#4a6741"/>
-                <path d="M90 135 L110 45 L130 135" fill="#3d5a36"/>
-                <path d="M200 140 L215 70 L235 140" fill="#557a4c"/>
-                <text x="16" y="28" fill="#2d3b2a" font-family="system-ui" font-size="14" font-weight="700">BEFORE · DEMO</text>
-              </svg>
-            </div>
-            <figcaption>Overgrown hedge line (fictional SVG)</figcaption>
-          </figure>
-          <figure class="ba-panel after">
-            <div class="ba-art" aria-hidden="true">
-              <svg viewBox="0 0 320 180" width="100%" height="180" role="img">
-                <rect width="320" height="180" fill="#e9f5ee"/>
-                <path d="M0 140 H320 V180 H0Z" fill="#74c69d"/>
-                <rect x="30" y="70" width="80" height="70" rx="4" fill="#2d6a4f"/>
-                <rect x="120" y="55" width="90" height="85" rx="4" fill="#40916c"/>
-                <rect x="220" y="75" width="70" height="65" rx="4" fill="#2d6a4f"/>
-                <text x="16" y="28" fill="#1b4332" font-family="system-ui" font-size="14" font-weight="700">AFTER · DEMO</text>
-              </svg>
-            </div>
-            <figcaption>Crisp cut &amp; edged lawn (fictional SVG)</figcaption>
-          </figure>
+        <header class="section-head reveal"><p class="eyebrow">How it works</p><h2>From first call to tidy finish</h2><p>A simple four-step process block — the kind of clarity that closes phone leads.</p></header>
+        <div class="process-grid">
+          <article class="process-step reveal"><div class="process-num" aria-hidden="true">01</div><h3>Quick survey</h3><p>Photo or short visit — we size the job honestly.</p></article>
+          <article class="process-step reveal"><div class="process-num" aria-hidden="true">02</div><h3>Fixed quote</h3><p>Package or one-off, written before we start.</p></article>
+          <article class="process-step reveal"><div class="process-num" aria-hidden="true">03</div><h3>Work the plot</h3><p>Quiet kit where we can; leave paths clear.</p></article>
+          <article class="process-step reveal"><div class="process-num" aria-hidden="true">04</div><h3>Recurring rhythm</h3><p>Opt into seasonal visits — pause anytime (demo).</p></article>
         </div>
       </div>
     </section>
-
-    <section class="areas" id="areas">
+    <section class="section" id="areas">
       <div class="wrap areas-grid">
-        <div>
-          <p class="eyebrow">Areas covered</p>
-          <h2>Fictional Surrey towns</h2>
-          <p>
-            Service area names are invented for this portfolio piece —
-            not real territories or client maps.
-          </p>
+        <div class="reveal"><p class="eyebrow">Service area</p><h2>Covering fictional Surrey towns</h2><p>Map-style cards for layout only — invented place names, not real client territories.</p><p class="demo-note" style="margin-top:1rem"><strong>DEMO ONLY</strong> — not a real coverage map.</p></div>
+        <div class="town-grid" role="list">
+          <div class="town-card reveal">Guildford Mere</div><div class="town-card reveal">Godalming Ridge</div><div class="town-card reveal">Farnham Copse</div>
+          <div class="town-card reveal">Woking Vale</div><div class="town-card reveal">Reigate Heath</div><div class="town-card reveal">Dorking Downs</div>
         </div>
-        <ul class="town-list">
-          <li>Guildford Mere</li>
-          <li>Godalming Ridge</li>
-          <li>Farnham Copse</li>
-          <li>Woking Vale</li>
-          <li>Reigate Heath</li>
-          <li>Dorking Downs</li>
-        </ul>
       </div>
     </section>
-
-    <section class="faq" id="faq">
+    <section class="section section-alt" id="reviews">
+      <div class="wrap">
+        <header class="section-head reveal"><p class="eyebrow">Social proof</p><h2>What customers say</h2><p class="demo-note"><strong>DEMO / fictional reviews</strong> — invented for portfolio layout only.</p></header>
+        <div class="review-grid">
+          <blockquote class="review reveal"><p>“Front hedge finally looks intentional. Crew were tidy and on time.”</p><footer><cite>Priya N. · Guildford Mere</cite><span class="demo-pill">DEMO / fictional</span></footer></blockquote>
+          <blockquote class="review reveal"><p>“Spring package woke the whole border. Easy to pause in winter.”</p><footer><cite>Tom H. · Farnham Copse</cite><span class="demo-pill">DEMO / fictional</span></footer></blockquote>
+          <blockquote class="review reveal"><p>“One-off rescue before the viewing — sold the house looking cared for.”</p><footer><cite>Elena M. · Reigate Heath</cite><span class="demo-pill">DEMO / fictional</span></footer></blockquote>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="faq">
       <div class="wrap narrow">
-        <header class="section-head">
-          <p class="eyebrow">FAQ</p>
-          <h2>Common questions</h2>
-        </header>
+        <header class="section-head reveal"><p class="eyebrow">FAQ</p><h2>Common questions</h2></header>
         <div class="faq-list">
-          <details open>
-            <summary>Is Hedge &amp; Order a real company?</summary>
-            <p><strong>No.</strong> This is a fictional brand created by Kerbstone Studio to showcase a Spark garden-trade website.</p>
-          </details>
-          <details>
-            <summary>Do you take green waste?</summary>
-            <p>Demo copy: yes — cuttings and leaves are removed on each visit unless you ask to compost on site.</p>
-          </details>
-          <details>
-            <summary>How often should hedges be cut?</summary>
-            <p>Demo copy: most formal hedges twice a year; vigorous growth may need a mid-summer trim.</p>
-          </details>
-          <details>
-            <summary>Can I pause a recurring package?</summary>
-            <p>Demo copy: pause or skip with 48 hours’ notice. No lock-in contracts in this fictional offer.</p>
-          </details>
+          <details class="reveal" open><summary>Is Hedge &amp; Order a real company?</summary><p><strong>No.</strong> This is a fictional brand created by Kerbstone Studio to showcase a Spark garden-trade website.</p></details>
+          <details class="reveal"><summary>Do you take green waste?</summary><p>Demo copy: yes — cuttings and leaves are removed on each visit unless you ask to compost on site.</p></details>
+          <details class="reveal"><summary>How often should hedges be cut?</summary><p>Demo copy: most formal hedges twice a year; vigorous growth may need a mid-summer trim.</p></details>
+          <details class="reveal"><summary>Can I pause a recurring package?</summary><p>Demo copy: pause or skip with 48 hours’ notice. No lock-in contracts in this fictional offer.</p></details>
         </div>
       </div>
     </section>
-
-    <section class="quote" id="quote">
-      <div class="wrap quote-grid">
-        <div>
-          <p class="eyebrow">Free quote</p>
-          <h2>Tell us about your garden</h2>
-          <p>
-            Netlify Forms demo — works when hosted on Netlify.
-            Submissions are not handled as real bookings.
-          </p>
-          <p class="demo-note"><strong>DEMO ONLY</strong> — fictional brand for Kerbstone Studio portfolio.</p>
+    <section class="section section-alt" id="quote">
+      <div class="wrap contact-grid">
+        <div class="reveal">
+          <p class="eyebrow">Free quote</p><h2>Tell us about your garden</h2>
+          <p>Netlify Forms demo — works when hosted on Netlify. Submissions are not handled as real bookings.</p>
+          <p class="demo-note" style="margin-top:1rem"><strong>DEMO ONLY</strong> — fictional brand for Kerbstone Studio portfolio.</p>
+          <p style="margin-top:1.25rem"><a class="btn btn-ghost" href="tel:01234567891">Or call 01234 567891</a></p>
         </div>
-        <form name="hedge-quote" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html">
+        <form class="reveal" name="hedge-quote" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks.html">
           <input type="hidden" name="form-name" value="hedge-quote" />
-          <p class="honeypot">
-            <label>Don’t fill this out: <input name="bot-field" /></label>
-          </p>
-          <label>
-            Name
-            <input type="text" name="name" required autocomplete="name" placeholder="Your name" />
-          </label>
-          <label>
-            Email
-            <input type="email" name="email" required autocomplete="email" placeholder="you@example.com" />
-          </label>
-          <label>
-            Phone
-            <input type="tel" name="phone" autocomplete="tel" placeholder="07…" />
-          </label>
-          <label>
-            Town
-            <input type="text" name="town" placeholder="e.g. Guildford Mere" />
-          </label>
-          <label>
-            Package interest
-            <select name="package">
-              <option value="">Select…</option>
-              <option>Spring wake-up</option>
-              <option>Summer keep it sharp</option>
-              <option>Autumn / winter settle</option>
-              <option>One-off tidy</option>
-            </select>
-          </label>
-          <label>
-            Garden notes
-            <textarea name="message" rows="4" required placeholder="Hedge length, lawn size, access…"></textarea>
-          </label>
-          <button class="btn btn-leaf btn-lg btn-block" type="submit">Send quote request</button>
+          <p class="honeypot"><label>Don’t fill this out: <input name="bot-field" tabindex="-1" autocomplete="off" /></label></p>
+          <label>Name <input type="text" name="name" required autocomplete="name" placeholder="Your name" /></label>
+          <label>Email <input type="email" name="email" required autocomplete="email" placeholder="you@example.com" /></label>
+          <label>Phone <input type="tel" name="phone" autocomplete="tel" placeholder="07…" /></label>
+          <label>Town <input type="text" name="town" placeholder="e.g. Guildford Mere" /></label>
+          <label>Package interest <select name="package"><option value="">Select…</option><option>Spring wake-up</option><option>Summer keep it sharp</option><option>Autumn / winter settle</option><option>One-off tidy</option></select></label>
+          <label>Garden notes <textarea name="message" rows="4" required placeholder="Hedge length, lawn size, access…"></textarea></label>
+          <button class="btn btn-accent btn-lg btn-block" type="submit">Send quote request</button>
           <p class="form-note">By submitting you acknowledge this is a DEMO form for portfolio purposes.</p>
         </form>
       </div>
     </section>
   </main>
-
   <footer class="site-footer">
     <div class="wrap footer-inner">
-      <div>
-        <strong>Hedge &amp; Order</strong>
-        <p>DEMO — fictional brand for Kerbstone Studio portfolio. Not a real business.</p>
-      </div>
-      <div>
-        <p>Fictional Surrey garden care Spark demo</p>
-        <p>No custom domain · Netlify preview only</p>
-      </div>
-      <div>
-        <p>Built by Kerbstone Studio</p>
-        <p class="demo-pill">DEMO / fictional</p>
-      </div>
+      <div><strong>Hedge &amp; Order</strong><p>DEMO — fictional brand for Kerbstone Studio portfolio. Not a real business.</p></div>
+      <div><p>Fictional garden Spark demo · Surrey</p><p>No custom domain · Netlify preview only</p></div>
+      <div><p>Built by Kerbstone Studio</p><p><span class="demo-pill">DEMO / fictional</span></p><p>&copy; <span data-year></span> Kerbstone Studio</p></div>
     </div>
   </footer>
-
+  <div class="mobile-call" role="region" aria-label="Quick call">
+    <a class="btn btn-accent" href="tel:01234567891">Book a visit</a>
+    <a class="btn btn-ghost" href="#quote">Message</a>
+  </div>
   <script src="script.js" defer></script>
 </body>
 </html>
